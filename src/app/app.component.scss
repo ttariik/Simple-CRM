@@ -1,0 +1,26 @@
+.example-container {
+    height: 100vh;
+  }
+  
+  .example-sidenav {
+    width: 250px;
+  }
+  
+  .example-sidenav-content {
+    padding: 16px;
+  }
+
+  .menu-icon {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  
+    &:hover {
+      transform: scale(1.1); 
+    }
+  
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+  
+  
