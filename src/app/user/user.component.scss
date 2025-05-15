@@ -1,0 +1,16 @@
+.add-user-button {
+    position: absolute;
+    right: 56px;
+    bottom: 56px;
+    z-index: 1000; /* optional, falls andere Elemente drüber liegen */
+    transition: transform 0.2s ease;
+  }
+  
+  .add-user-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .add-user-button:active {
+    transform: scale(0.95);
+  }
+  
